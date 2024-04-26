@@ -1,64 +1,42 @@
 body {
-
     background-color: rgb(54, 129, 226);
 }
 
-
-
-.navbar{
-
+.navbar {
     background-color: rgb(54, 129, 226);
     color: violet;
-    padding-inline-start: 1rem;
-
+    padding-inline-start: 0.063rem; /* Convertido de 1rem */
 }
 
-img {
-
-    height: fit-content;
-    width: fit-content;
-    width: 100px;
-    height: 100px;
-    height: auto;
-    display:block;
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-in .7s;
 }
 
-
-.carousel-item img {
-    width: 100%; 
-    height: 600px; 
-    object-fit: cover; 
-    border-bottom: 4px solid;
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
 }
 
-.carousel-inner{
-    width: 100%;
-    height: auto;
+.hw {
+    height: 30rem;
 }
 
-
-.container-fluid {
-    padding: 0; 
-    margin: 0; 
-}
-
-form{
-
+form {
     display: flex;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 5rem; /* Convertido de 20rem */
+    margin-right: 5rem; /* Convertido de 20rem */
     width: 50rem;
-
 }
 
 #searchbar {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 5rem; /* Convertido de 80px */
     background-color: cornflowerblue;
-    border-bottom: 4px solid #98cef1;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.1); 
+    border-bottom: 0.25rem solid #98cef1; /* Convertido de 4px */
+    box-shadow: 0 0.25rem 0.25rem rgba(0,0,0,0.1); /* Convertido de 4px */
 }
 
 #searchbar button {
@@ -67,32 +45,28 @@ form{
     border-color: #250e0e; 
 }
 
-.section-top{
+.section-top {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    background-color:aliceblue;
+    background-color: aliceblue;
     border-radius: 3%;
     height: auto;
 }
 
-
-
 h2 {
     text-align: center;
-    justify-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem; /* Convertido de 48px */
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 4rem;
+    letter-spacing: 0.063rem; /* Convertido de 1px */
+    margin-bottom: 2rem; /* Convertido de 4rem */
     display: block;
     height: auto;
-
 }
 
 #marcas {
@@ -102,18 +76,18 @@ h2 {
 }
 
 .brand-item {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem; /* Convertido de 100px */
+    height: 6.25rem; /* Convertido de 100px */
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
 .brand-item:hover img {
-    box-shadow: 0 0 10px 5px rgb(194, 194, 194); 
+    box-shadow: 0 0 0.625rem 0.3125rem rgb(194, 194, 194); /* Convertido de 10px y 5px */
     transition: box-shadow 0.3s ease;
     width: 100%;
-    height: auto;
-    display:block; 
+    display: block;
 }
+
+
