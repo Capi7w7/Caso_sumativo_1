@@ -8,6 +8,13 @@ body {
     padding-inline-start: 0.063rem; /* Convertido de 1rem */
 }
 
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 4px solid;
+    max-height: 500px;
+}  /*Ajuste a imga carousel para que no se salga de su altuera*/
+
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
@@ -90,4 +97,12 @@ h2 {
     display: block;
 }
 
+
+.brand-item img {
+    width: 100px;
+    height: 100px;
+    height: auto;
+    display: block;
+
+} /*Ajuste a los iconos de marcas para que no salgan de un cuadrado definido*/
 
