@@ -1,11 +1,20 @@
 body {
-    background-color: rgb(54, 129, 226);
+    background-color: rgb(55, 130, 228);
+}
+
+#nav {
+    padding: 0;
 }
 
 .navbar {
-    background-color: rgb(54, 129, 226);
-    color: violet;
+    color: black;
+    background-color: rgb(9, 10, 12);
     padding-inline-start: 0.063rem; /* Convertido de 1rem */
+    border-bottom: 4px solid aliceblue ;
+    box-shadow: 0 4px 4px beige;
+     
+
+
 }
 
 .carousel-item img {
@@ -18,7 +27,7 @@ body {
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
-    transition: opacity ease-in .7s;
+    transition: opacity ease-in 7s;
 }
 
 .carousel.carousel-fade .carousel-item.active {
