@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(55, 130, 228);
+    background-color: rgb(130, 172, 228);
 }
 
 #nav {
@@ -115,3 +115,36 @@ h2 {
 
 } /*Ajuste a los iconos de marcas para que no salgan de un cuadrado definido*/
 
+
+.card-deck{
+    margin-top: 2rem;
+    background-color: aliceblue;
+    border-radius: 3%;
+    
+
+}
+
+
+.icons {
+    padding-top: 2rem;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons div {
+    margin: 0 20px; 
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: rgb(255, 254, 254);
+    color: black;
+    padding: 20px;
+}
+
+.text{
+    margin-top: 1rem;
+    text-align: center;
+}
